@@ -1,0 +1,14 @@
+{
+  "project_name": "Final",
+  "root": "automan",
+  "sources": [
+    "/home/neel/Sem_8/AE6102/Project/fault_simulation_toolkit/Final"
+  ],
+  "workers": [
+    {
+      "host": "localhost",
+      "home": "",
+      "nfs": false
+    }
+  ]
+}

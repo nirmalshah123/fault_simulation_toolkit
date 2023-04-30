@@ -1,0 +1,13 @@
+.title Diff Pair
+.include /home/neel/Sem_8/AE6102/Project/fault_simulation_toolkit/Final/130nm_bulk.lib
+Vgate_1 gatenode_1 0 0.8
+Vgate_2 gatenode_2 0 0.8
+R1 drain_1 R1_minus 19.997957929359668k
+R2 drain_2 R2_minus 20.044127885536216k
+V1 vdd 0 2.2
+I1 source 0 106u
+M1 drain_1 gatenode_1 source 0 nmos l=9.961167802823061u w=9.984201991799404u
+M2 drain_2 gatenode_2 source 0 nmos l=10.076554930747928u w=9.961176993713673u
+VR1_minus vdd R1_minus 0
+VR2_minus vdd R2_minus 0
+
